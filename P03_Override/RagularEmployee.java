@@ -2,7 +2,6 @@ package P03_Override;
 
 public class RagularEmployee extends Employee {
 
-	// 既然父Class 都做好了 那我們只需要做父Class沒有的東西就可以拉
 	public void startOvertiming() {
 		System.out.println("Let's get start now until i'm sleep");
 	}

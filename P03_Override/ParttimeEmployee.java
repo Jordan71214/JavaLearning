@@ -2,7 +2,6 @@ package P03_Override;
 
 public class ParttimeEmployee extends Employee {
 
-	// 既然父Class 都做好了 那我們只需要做父Class沒有的東西就可以拉
 	public void takeBreak() {
 		System.out.println("I'm gonna taking a break");
 	}
