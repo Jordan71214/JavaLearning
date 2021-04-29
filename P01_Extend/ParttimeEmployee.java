@@ -1,4 +1,4 @@
-package ExtendEx;
+package P01_Extend;
 
 public class ParttimeEmployee {
 	// 一般兼職的員工

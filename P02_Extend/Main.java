@@ -1,4 +1,4 @@
-package Extend02;
+package P02_Extend;
 
 public class Main {
 

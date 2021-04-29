@@ -1,4 +1,4 @@
-package Extend02;
+package P03_Override;
 
 public class RagularEmployee extends Employee {
 
@@ -13,6 +13,13 @@ public class RagularEmployee extends Employee {
 		this.name = name;
 		this.age = age;
 		this.salary = salary;
+	}
+
+	// 這邊使用override覆寫 來蓋住父Class的introduce()方法
+	@Override
+	public void introduce() {
+		// TODO Auto-generated method stub
+		System.out.println("Hello I'm RagularEmployee!!!");
 	}
 
 }
